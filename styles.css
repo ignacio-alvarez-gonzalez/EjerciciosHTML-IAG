@@ -1,0 +1,54 @@
+html {
+    background-color: lightgrey;
+}
+
+li {
+    /* font-size: 30px; */
+    color: darkblue;
+}
+
+p {
+    color: lightseagreen;
+    padding-left: 50px;
+}
+
+.title {
+    background-color: cadetblue;
+    color: white;
+}
+#internet {
+    background-color: limegreen;
+}
+
+.subtitle {
+    color: black;
+}
+
+/* configurar flexbox */
+
+#mainbox {
+    border: 5px solid white;
+    display: flex;
+    height: 150px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.caja1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.caja2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+.caja3 {
+    width: 100px;
+    height: 100px;
+    background-color: lightskyblue;
+}

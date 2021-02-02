@@ -3,15 +3,21 @@
     <head>
         <meta charset="utf-8">
         <title>Ejercicio 6: Repaso.</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            ol {
+                font-size: 12px;
+            }
+        </style>
     </head>
     <body>
-        <h1>Internet</h1>
-        <h2>Contenido</h2>
+        <h1 id="internet">INTERNET</h1>
+        <h2 class="title subtitle">Contenido</h2>
         <ol>
             <li>Principales protocolos</li>
             <li>Formas de conectarse</li>
         </ol>
-        <h2>1. Principales protocolos</h2>
+        <h2 class="title">1. Principales protocolos</h2>
         <ul>
             <li>Transmisión de ficheros:</li>
             <ul>
@@ -24,10 +30,16 @@
                 <li>SMTP</li>
             </ul>
         </ul>
-        <h2>2. Formas de conectarse</h2>
+        <h2 class="title">2. Formas de conectarse</h2>
         <p>Red Telefónica Conmutada (RTC):<br>La línea telefónica de toda la vida. Para acceder a Internet es necesario un módem.</p>
         <p>Red Digital de Servicios Integrados (RDSI):<br>Una línea telefónica especial. Para acceder a Internet es necesario un módem RDSI.</p>
         <p>Línea de Abonado Digital Asimétrica (ADSL):<br>Se basa en la conversión de una línea RTC en una línea de alta velocidad. Para acceder a Internet es necesario un módem ADSL.</p>
         <p>Fibra Óptica:<br>Una línea de fibra óptica. Normalmente la fibra óptica no llega hasta el usuario final, por lo que el término más apropiado es Fibra híbrida coaxial.</p>
+
+        <div id="mainbox">
+            <div class="caja1"></div>
+            <div class="caja2"></div>
+            <div class="caja3"></div>
+        </div>
     </body>
 </html>
